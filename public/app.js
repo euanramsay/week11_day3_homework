@@ -25,13 +25,14 @@ var requestComplete = function() {
 var populateList = function(array) {
   var div = document.querySelector('#albums');
   for (i = 0; i < array.length; i++) {
-    // var li = document.createElemt('li');
+    var li = document.createElement('li');
     var a = document.createElement('a');
     var linkText = document.createTextNode(array[i].name);
     a.appendChild(linkText);
     a.title = array[i].name;
     a.href = array[i].external_urls.spotify;
-    div.appendChild(a);
+    div.appendChild(li);
+    li.append(a);
     console.log(array[i].external_urls.spotify);
   
    
