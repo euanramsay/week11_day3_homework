@@ -32,10 +32,7 @@ var populateList = function(array) {
     a.title = array[i].name;
     a.href = array[i].external_urls.spotify;
     div.appendChild(li);
-    li.append(a);
-    console.log(array[i].external_urls.spotify);
-  
-   
+    li.append(a); 
     }
   }
 

@@ -15,3 +15,17 @@ input{
   padding: 5px;
 }
 
+body{
+  font-family: sans-serif;
+  font-size: 20px;
+  background-image: url("http://kauppa.robokeskus.fi/vegas/images/christmas-wallpaper.jpg");
+}
+
+a{
+  color:  green;
+  font-style: strong;
+}
+
+#albums{
+  width: 600px;
+}
